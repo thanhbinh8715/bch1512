@@ -12,7 +12,7 @@ and open the template in the editor.
     <body>
         <?php
         
-        // xin chao
+        // xin chao cqccqcqc
         
         
          $x = 5 + /* 15 + */ + 10;
