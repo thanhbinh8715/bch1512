@@ -11,6 +11,10 @@ and open the template in the editor.
     </head>
     <body>
         <?php
+        
+        // xin chao
+        
+        
          $x = 5 + /* 15 + */ + 10;
         $y = 5;
         $z = 9;
