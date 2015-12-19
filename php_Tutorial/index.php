@@ -12,8 +12,13 @@ and open the template in the editor.
     <body>
         <?php
         
-        // xin chao cqccqcqc
+        // xin chao
         
+        $name = "Binh";
+        echo "day la tham so 1<br>","day la tham so 2<br>";
+        echo("day la echo co ngoac don <br>");
+        echo "Ten cua toi la $name";
+        print '<br><strong>Day la dong chu hien thi tu ham print<strong><br>';
         
          $x = 5 + /* 15 + */ + 10;
         $y = 5;
