@@ -11,7 +11,27 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-        echo "xin chao cac ban";
+         $x = 5 + /* 15 + */ + 10;
+        $y = 5;
+        $z = 9;
+        $g = 0;
+        function test(){
+            global $g;
+            echo $g;
+            $g = $g + 2;
+        }
+        
+        function test2(){
+            global $g;
+            echo "trong ham test 2 : ".$g;
+        }
+        
+        
+        
+        test();
+        test();
+        test();
+        test2();
         ?>
     </body>
 </html>
