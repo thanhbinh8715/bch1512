@@ -19,3 +19,12 @@ function myFunction(){
 
 myFunction();
 
+$x = 10;
+$y = 15;
+
+echo "<br> Tong 10 va 15 la : ". ($x + $y);
+echo "<br> Hieu 10 va 15 la : " . ($x - $y);
+echo "<br> 10 x 15 = " . ($x * $y);
+echo "<br> 10 / 15 = " . ($x / $y);
+echo "<br> 10 / 15 co so du la : " . ($x % $y);
+
