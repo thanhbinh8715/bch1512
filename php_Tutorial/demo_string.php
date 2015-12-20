@@ -28,3 +28,13 @@ echo "<br> 10 x 15 = " . ($x * $y);
 echo "<br> 10 / 15 = " . ($x / $y);
 echo "<br> 10 / 15 co so du la : " . ($x % $y);
 
+$x = $y ;
+echo '<br> $x = $y => $x la : ' . $x;
+$x += $y;
+echo '<br> $x += $y => $x = ' . $x;
+$x -= $y;
+echo '<br> $x -= $y => $x = ' . $x;
+$x *= $y;
+echo '<br> $x *= $y => $x = ' . $x;
+
+echo "<br> $x /= $y => \$x = " . ($x /= $y);
