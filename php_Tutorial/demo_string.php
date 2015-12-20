@@ -54,3 +54,18 @@ echo "<br> Gia cuoi cung cua \$x = " . $x;
 echo "<br> Gia tri --$x = " . (--$x);
 echo "<br> Gia tri $x-- = " . ($x--);
 echo "<br> Gia tri cuoi cung cua \$x= " . $x;
+
+$txt1 = "<br> xin chao";
+$txt2 = "cac Ban !";
+
+echo $txt1 . $txt2;
+$txt1 .= $txt2;
+//$txt1 = $txt1 . $txt2;
+echo $txt1;
+
+$a = array('a' => 'do','b' => 'den');
+$b = array('c' => 'xanh', 'd' => 'hong' ,'e' => 10);
+$c = array('c' => 'xanh', 'd' => 'hong' ,'e' => "10");
+
+echo "<br> truy mang key c la : " . $b['d'];
+var_dump($c != $b);
