@@ -39,3 +39,18 @@ echo '<br> $x *= $y => $x = ' . $x;
 
 echo "<br> $x /= $y => \$x = " . ($x /= $y);
 echo "<br> $x %= $y => \$x = " . ($x %= $y);
+
+$x = 10;
+$y = "10";
+var_dump($y);
+//var_dump($x == $y);
+//var_dump($x === $y);
+$y = 100;
+var_dump($y);
+
+echo "<br> Gia tri ++\$x = " . (++$x);
+echo "<br> Gia tri \$x++ = " . ($x++);
+echo "<br> Gia cuoi cung cua \$x = " . $x;
+echo "<br> Gia tri --$x = " . (--$x);
+echo "<br> Gia tri $x-- = " . ($x--);
+echo "<br> Gia tri cuoi cung cua \$x= " . $x;
