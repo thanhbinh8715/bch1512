@@ -38,3 +38,4 @@ $x *= $y;
 echo '<br> $x *= $y => $x = ' . $x;
 
 echo "<br> $x /= $y => \$x = " . ($x /= $y);
+echo "<br> $x %= $y => \$x = " . ($x %= $y);
