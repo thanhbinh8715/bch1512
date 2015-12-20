@@ -12,3 +12,10 @@ echo "<br> Ten cua Ban sau khi thay the la : " . str_replace('Vu', 'Phan', $ten)
 define('NAME', 'Le Thi Lieu',TRUE);
 echo "<br> Gia tri hang so NAME la : " . NAME;
 echo "<br> Gia tri hang so Name la : " . Name;
+
+function myFunction(){
+    echo '<br> Hang so NAME o ben trong ham la : ' . NAME;
+}
+
+myFunction();
+
