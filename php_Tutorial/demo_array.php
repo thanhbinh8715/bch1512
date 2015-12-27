@@ -8,3 +8,10 @@ $siso = count($lophoc);
 for($i =0 ; $i < $siso; $i++){
     echo $lophoc[$i] . ', ';
 }
+
+// vi du mang theo key
+$tuoi['Tu'] = 25;
+$tuoi['Mo'] = 30;
+$tuoi['Hoang'] = 27;
+
+echo "<br > Tuoi cua Tu la : " . $tuoi['Tu'];
