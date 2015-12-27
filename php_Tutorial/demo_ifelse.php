@@ -13,3 +13,13 @@ if ($gio <12){
     echo "<br> Chuc mot ngay tot lanh !";
 }
 
+//vi du if elseif else
+if ($gio <12){
+    echo "<br> Chao buoi sang ! Bay gio la thu ".  date("D H:i:s")." gio.";
+}  elseif ($gio < 18) {
+    echo "<br> Chao buoi chieu !";
+}else{    
+    echo "<br> Chao buoi toi !";
+}
+
+
