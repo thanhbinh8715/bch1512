@@ -67,4 +67,10 @@ while ($i < 5){
     $i += 5;
 }
 
+//de mo for
+
+for($j = 100; $j <= 200; $j += 10 ){
+    echo "<br > So : $j";
+}
+
 
