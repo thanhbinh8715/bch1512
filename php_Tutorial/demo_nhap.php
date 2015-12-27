@@ -7,12 +7,12 @@
 
 
 <?php
-if (isset($_REQUEST['txtSo'])) {
-    $abc = $_REQUEST['abc'];
+if (isset($_POST['txtSo'])) {
+    $getSo = $_GET['txtSo'];
 //    $so = ['txtSo'];
 //$so = $_POST['txtSo']; 
     $so = $_REQUEST['txtSo'];
 
     echo "<br> So ban nhap la $so";
-    echo "<br > abc = $abc";
+    echo "<br > abc = $getSo";
 }
