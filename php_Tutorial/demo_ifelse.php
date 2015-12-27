@@ -52,3 +52,19 @@ while ($dem < 11){
     echo $dem . " - ";
     $dem++;
 }
+// do while
+$i = 5;
+do{
+    echo "<br> $i";
+    $i += 5;
+}while ($i < 5);
+
+// while ket thu khi dieu kien sai ngay tu dau
+
+
+while ($i < 5){
+    echo "<br> $i";
+    $i += 5;
+}
+
+
