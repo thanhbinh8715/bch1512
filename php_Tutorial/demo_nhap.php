@@ -1,4 +1,4 @@
-<form action="" method="_GET">
+<form action="" method="post">
     Moi ban nhap vao 1 so : 
     <input type="text" id="txtSo" name="txtSo" placeholder="Moi ban nhap vao day !" />
     <br>
@@ -7,9 +7,12 @@
 
 
 <?php
-
-$so = $_GET['txtSo'];
+if (isset($_REQUEST['txtSo'])) {
+    $abc = $_REQUEST['abc'];
+//    $so = ['txtSo'];
 //$so = $_POST['txtSo']; 
-$so = $_REQUEST['txtSo'];
+    $so = $_REQUEST['txtSo'];
 
-echo  "So ban nhap la $so";
+    echo "<br> So ban nhap la $so";
+    echo "<br > abc = $abc";
+}
