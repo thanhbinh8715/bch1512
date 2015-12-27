@@ -46,3 +46,9 @@ switch ($thu) {
         echo "<br> Ban nhap vao khong dung dinh. Moi Ban nhap lai !";
 }
 
+//de mo while
+$dem = 1;
+while ($dem < 11){
+    echo $dem . " - ";
+    $dem++;
+}
