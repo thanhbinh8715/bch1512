@@ -2,11 +2,11 @@
 
 
 
-hienThiTen("Vu Thanh Binh");
-hienThiTen("Le Minh Hoang");
+hienThiTen("Vu Thanh Binh", 29);
+hienThiTen("Le Minh Hoang", 24);
 
 
 
-function hienThiTen($hoten){
-    echo "Ten cua Ban la : $hoten";    
+function hienThiTen($hoten, $tuoi){
+    echo "<br> Ten cua Ban la : $hoten. Ban co so tuoi la : $tuoi";    
 }
