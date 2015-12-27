@@ -15,3 +15,8 @@ $tuoi['Mo'] = 30;
 $tuoi['Hoang'] = 27;
 
 echo "<br > Tuoi cua Tu la : " . $tuoi['Tu'];
+
+echo "<br> Tuoi cac ban trong lop : ";
+foreach ($tuoi as $ten => $sotuoi){
+    echo "<br> Tuoi cua Ban $ten la : $sotuoi";
+}
