@@ -81,6 +81,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             }
         }
     }
+    //lay so thich
+    if (!empty($_POST['st'])){
+        $sothich =  $_POST['st'];
+        var_dump($sothich);
+        echo "So thich cua ban la : " . implode(',', $sothich);
+    }
 }
 
 function kiemtra($dulieu) {
@@ -131,6 +137,13 @@ function kiemtra($dulieu) {
     <label class="error"><?php echo $ngaysinhErr ?></label>
     <br/> 
     Dinh dang nhap : ngay/thang/nam <br/>
+    So thich : <input type="checkbox" name="st[]" value="Nghe nhac" 
+            <?= array_search('Nghe nhac', $sothich)!==FALSE ? 'checked' : '' ?> /> Nghe nhac 
+    <input type="checkbox" name="st[]" value="Doc sach" 
+            <?= array_search('Doc sach', $sothich)!==FALSE ? 'checked' : '' ?> /> Doc sach
+    <input type="checkbox" name="st[]" value="The thao" 
+            <?= array_search('The thao', $sothich)!==FALSE ? 'checked' : '' ?>/> The thao<br/>
+    
     <input type="submit" />
 </form>
 
